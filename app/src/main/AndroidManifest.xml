@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.amanda.os">
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Amanda.os"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="AmandaOS"
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.Material.NoTitleBar">
+        android:theme="@style/AppTheme">
+        
         <activity
             android:name=".MainActivity"
             android:exported="true">
