@@ -1,4 +1,4 @@
-package com.amanda.os
+package com.example.amanda
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
